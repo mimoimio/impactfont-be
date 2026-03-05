@@ -212,7 +212,7 @@
 
             try {
                 // 2. Send Request to Flask API
-                const response = await fetch('http://209.97.167.159/meme', {
+                const response = await fetch('/meme', {
                     method: 'POST',
                     body: formData
                 });
@@ -238,5 +238,6 @@
         }
     </script>
 </body>
+
 
 </html>
